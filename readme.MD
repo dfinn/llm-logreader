@@ -12,6 +12,12 @@ Install the required packages using pip. It's recommended to use a virtual envir
 pip install -r requirements.txt
 ```
 
+Pull the required Ollama models:
+```commandline
+ollama pull llama3
+ollama pull nomic-embed-text
+```
+
 ### Usage
 ```commandline
 python llm-logreader.py <log_file_path>
